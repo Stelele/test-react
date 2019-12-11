@@ -12,10 +12,10 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "set HTTPS=false&&react-scripts start",
+    "build": "set HTTPS=false&&react-scripts build",
+    "test": "set HTTPS=false&&react-scripts test",
+    "eject": "set HTTPS=false&&react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
